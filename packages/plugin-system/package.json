@@ -1,0 +1,32 @@
+{
+  "name": "@gfd/plugin-system",
+  "version": "1.0.0",
+  "description": "GFD插件系统",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@gfd/utils": "workspace:^",
+    "@gfd/logger": "workspace:^"
+  },
+  "keywords": [
+    "gfd",
+    "plugin",
+    "extension"
+  ],
+  "author": "GFD Team",
+  "license": "MIT"
+}
