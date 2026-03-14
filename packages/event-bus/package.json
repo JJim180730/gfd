@@ -1,0 +1,26 @@
+{
+  "name": "@gfd/event-bus",
+  "version": "1.0.0",
+  "description": "GFD事件总线",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "test": "vitest run",
+    "lint": "eslint src/**/*.ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": ["event", "event-bus", "pubsub", "gfd"],
+  "author": "GFD Team",
+  "license": "MIT",
+  "dependencies": {
+    "@gfd/utils": "workspace:^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.1"
+  }
+}

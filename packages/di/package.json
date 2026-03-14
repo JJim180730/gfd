@@ -1,0 +1,27 @@
+{
+  "name": "@gfd/di",
+  "version": "1.0.0",
+  "description": "GFD依赖注入容器",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "test": "vitest run",
+    "lint": "eslint src/**/*.ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": ["di", "dependency-injection", "ioc", "gfd"],
+  "author": "GFD Team",
+  "license": "MIT",
+  "dependencies": {
+    "@gfd/utils": "workspace:^1.0.0",
+    "reflect-metadata": "^0.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.1"
+  }
+}
