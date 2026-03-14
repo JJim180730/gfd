@@ -1,0 +1,17 @@
+{
+  "name": "my-full-demo",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@gfd/core": "workspace:^",
+    "@gfd/logger": "workspace:^",
+    "@gfd/plugin-system": "workspace:^",
+    "@gfd/i18n": "workspace:^",
+    "dotenv": "^17.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
