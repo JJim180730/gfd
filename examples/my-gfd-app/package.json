@@ -1,0 +1,14 @@
+{
+  "name": "my-gfd-app",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@gfd/core": "workspace:^",
+    "@gfd/logger": "workspace:^"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
