@@ -1,0 +1,36 @@
+{
+  "name": "@gfd/core",
+  "version": "1.0.0",
+  "description": "GFD核心引擎",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@gfd/di": "workspace:^",
+    "@gfd/event-bus": "workspace:^",
+    "@gfd/i18n": "workspace:^",
+    "@gfd/logger": "workspace:^",
+    "@gfd/plugin-system": "workspace:^",
+    "@gfd/utils": "workspace:^"
+  },
+  "keywords": [
+    "gfd",
+    "core",
+    "framework"
+  ],
+  "author": "GFD Team",
+  "license": "MIT"
+}
