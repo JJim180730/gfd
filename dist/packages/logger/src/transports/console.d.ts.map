@@ -1,0 +1,1 @@
+{"version":3,"file":"console.d.ts","sourceRoot":"","sources":["../../../../../packages/logger/src/transports/console.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,UAAU,EAAE,YAAY,EAAE,YAAY,EAAE,MAAM,UAAU,CAAC;AAGlE;;GAEG;AACH,qBAAa,gBAAiB,YAAW,YAAY;IACnD,OAAO,CAAC,SAAS,CAAe;gBAEpB,SAAS,CAAC,EAAE,YAAY;IAIpC,GAAG,CAAC,OAAO,EAAE,UAAU,GAAG,IAAI;CAqB/B"}
